@@ -92,13 +92,13 @@ double Itens::getPreco(int tipo, int index)
 {
     switch(tipo)
     {
-    case 1:
+    case (tipos_produto::_Relogio):
         return _itens_relogio[index].Preco();
         break;
-    case 2:
+    case (tipos_produto::_Cinto):
         return _itens_cinto[index].Preco();
         break;
-    case 3:
+    case (tipos_produto::_Kit):
         return _itens_kit[index].Preco();
         break;
     }
@@ -109,13 +109,13 @@ string Itens::getNome(int tipo, int index)
 {
     switch(tipo)
     {
-    case 1:
+    case (tipos_produto::_Relogio):
         return _itens_relogio[index].Nome();
         break;
-    case 2:
+    ase (tipos_produto::_Cinto):
         return _itens_cinto[index].Nome();
         break;
-    case 3:
+    case (tipos_produto::_Kit):
         return _itens_kit[index].Nome();
         break;
     }
