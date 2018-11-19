@@ -153,14 +153,14 @@ void CadastroPrevio()
     for(int i=0; i<6; i++)
         itens.add_cinto(cintos[i]);
 
-    Kit kits[3] =
+    Kit kits[4] =
     {
         Kit("Kit casual masculino", relogios[0], cintos[0], 'M', "799"),
         Kit("Kit casual feminino", relogios[1], cintos[4], 'F', "781"),
         Kit("Kit especial feminino", relogios[3], cintos[1], 'F', "099"),
         Kit("Kit especial masculino", relogios[2], cintos[0], 'M', "097")
     };
-    for(int i=0; i<3; i++)
+    for(int i=0; i<4; i++)
         itens.add_kit(kits[i]);
 
     Embalagem embalagens[4] =
