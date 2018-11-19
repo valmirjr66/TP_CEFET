@@ -6,7 +6,6 @@ using namespace std;
 #include "itens.h"
 #include "embalagem.h"
 #include "recursos.h"
-#include <windows.h>
 #include <string>
 
 Itens itens = Itens();
@@ -31,10 +30,6 @@ struct Nota
 
 int main()
 {
-    HANDLE hConsole;
-    hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hConsole, 11);
-
     CadastroPrevio();
     Abertura();
 
@@ -43,11 +38,8 @@ int main()
 
     do
     {
-        SetConsoleTextAttribute(hConsole, 10);
         int tipo_produto = EscolhaTipoProduto();
-        SetConsoleTextAttribute(hConsole, 7);
         ListagemProdutos(tipo_produto);
-        SetConsoleTextAttribute(hConsole, 10);
         int item_produto = EscolhaItemProduto(tipo_produto);
 
         Relogio _relogio_selecionado = Relogio();
@@ -122,8 +114,6 @@ int main()
         cout<<"\n";
     }
     while(!PainelFinal(compra.nome, compra.preco));
-
-    SetConsoleTextAttribute(hConsole, 12);
 
     cout<<"\nNota da compra\n"
         <<"Item: " <<compra.nome << "\n"
