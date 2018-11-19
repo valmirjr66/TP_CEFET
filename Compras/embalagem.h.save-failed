@@ -1,0 +1,23 @@
+#ifndef EMBALAGEM_H_INCLUDED
+#define EMBALAGEM_H_INCLUDED
+using namespace std;
+#include <string>
+#include "recursos.h"
+
+class Embalagem
+{
+public:
+    Embalagem();
+	Embalagem(string estampa, string tamanho);
+    void PrintEstampa();
+    string Estampa();
+    string Tamanho();
+    void Embalar(Nota &nota);
+
+private:
+	string _estampa;
+	string _tamanho;
+};
+
+#endif
+

@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1542577024 source:c:\users\valmir\documents\compras\acessorio.cpp
+	"acessorio.h"
+	<string>
+	<iostream>
+
+1542577040 c:\users\valmir\documents\compras\acessorio.h
+	<string>
+
+1542601064 source:c:\users\valmir\documents\compras\cinto.cpp
+	"cinto.h"
+	<string>
+
+1542601121 c:\users\valmir\documents\compras\cinto.h
+	<string>
+	"acessorio.h"
+
+1542393396 source:c:\users\valmir\documents\compras\colecionavel.cpp
+	"colecionavel.h"
+
+1542395573 c:\users\valmir\documents\compras\colecionavel.h
+
+1542600859 source:c:\users\valmir\documents\compras\embalagem.cpp
+	<string>
+	"embalagem.h"
+	<iostream>
+
+1542600867 c:\users\valmir\documents\compras\embalagem.h
+	<string>
+	"relogio.h"
+	"cinto.h"
+	"kit.h"
+
+1542600973 c:\users\valmir\documents\compras\relogio.h
+	<string>
+	"acessorio.h"
+	"colecionavel.h"
+
+1542602403 c:\users\valmir\documents\compras\kit.h
+	"relogio.cpp"
+	"cinto.cpp"
+	<string>
+
+1542600918 c:\users\valmir\documents\compras\relogio.cpp
+	"relogio.h"
+	<string>
+	<iostream>
+	"acessorio.h"
+	"colecionavel.h"
+
+1542601064 c:\users\valmir\documents\compras\cinto.cpp
+	"cinto.h"
+	<string>
+
+1542598598 source:c:\users\valmir\documents\compras\itens.cpp
+	"itens.h"
+	"relogio.h"
+	"cinto.h"
+	"kit.h"
+	<iostream>
+	"acessorio.h"
+	"recursos.h"
+
+1542597887 c:\users\valmir\documents\compras\itens.h
+	"relogio.h"
+	"cinto.h"
+	"kit.h"
+	"embalagem.h"
+	<string>
+
+1542602664 c:\users\valmir\documents\compras\recursos.h
+	"relogio.h"
+	"cinto.h"
+	"kit.h"
+
+1542602732 source:c:\users\valmir\documents\compras\kit.cpp
+	"cinto.h"
+	"relogio.h"
+	"kit.h"
+	<string>
+	<iostream>
+	"recursos.h"
+
+1542600918 source:c:\users\valmir\documents\compras\relogio.cpp
+	"relogio.h"
+	<string>
+	<iostream>
+	"acessorio.h"
+	"colecionavel.h"
+
+1542603403 source:c:\users\valmir\documents\compras\main.cpp
+	"relogio.h"
+	"kit.h"
+	"cinto.h"
+	"itens.h"
+	"embalagem.h"
+	"recursos.h"
+	<windows.h>
+	<string>
+
