@@ -66,7 +66,7 @@ int main()
             int i = 0;
             do
             {
-                cout<<"\n\nFavor digitar um texto de ate 15 caracteres para ser gravado\n";
+                cout<<"\nFavor digitar um texto de ate 15 caracteres para ser gravado\n";
                 cin.ignore();
                 getline( cin, compra.mensagem );
                 cin.clear();
@@ -87,7 +87,7 @@ int main()
             int escolha_embalagem;
             do
             {
-                cout<<"\n\nEscolha uma estampa:\n";
+                cout<<"\nEscolha uma estampa:\n";
                 itens.listar_embalagens();
                 cin>>escolha_embalagem;
             }
@@ -167,7 +167,8 @@ void CadastroPrevio()
     {
         Kit("Kit casual masculino", relogios[0], cintos[0], 'M', "799"),
         Kit("Kit casual feminino", relogios[1], cintos[4], 'F', "781"),
-        Kit("Kit especial feminino", relogios[3], cintos[1], 'F', "099")
+        Kit("Kit especial feminino", relogios[3], cintos[1], 'F', "099"),
+        Kit("Kit especial masculino", relogios[2], cintos[0], 'M', "097")
     };
     for(int i=0; i<3; i++)
         itens.add_kit(kits[i]);
